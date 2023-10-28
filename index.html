@@ -76,13 +76,27 @@
                 </p>
 
                 <div id="input_group">
-                    <form action="processa_form.php" method="post">
-                        <label for="email">Digite seu email:</label>
+                    <form action="https://formspree.io/f/moqorrzb" method="post">
                     <input type="email" id="email" name="email" required>
-                    <button>
-                        <i class="fa-regular fa-envelope"></i>
-                    </button>
+                    <button type="submit"><i class="fa-regular fa-envelope"></i></button>
                     </form>
+                    
+                    <div id="popup">
+                        <p>Email enviado com sucesso!</p>
+                    </div>
+                
+                    <script>
+                        // Mostrar o pop-up quando o formulário é enviado com sucesso
+                        document.querySelector("form").addEventListener("submit", function() {
+                            // Exibir o pop-up
+                            document.getElementById("popup").style.display = "block";
+                
+                            // Esconder o pop-up após 3 segundos (3000 milissegundos)
+                            setTimeout(function() {
+                                document.getElementById("popup").style.display = "none";
+                            }, 3000);
+                        });
+                    </script>
                 </div>
             </div>
         </div>
