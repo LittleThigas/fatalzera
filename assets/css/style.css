@@ -98,13 +98,13 @@ footer {
     color: #7f37c9;
 }
 
-#footer_subscribe {
+#footer_contact {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-#footer_subscribe p {
+#footer_contact p {
     color: var(--color-neutral-30);
 }
 
