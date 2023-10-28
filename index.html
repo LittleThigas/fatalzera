@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Responsive Footer</title>
+    <title>Fatalzera</title>
 </head>
 <body>
     <main>
@@ -80,18 +80,14 @@
                     <input type="email" id="email" name="email" required>
                     <button type="submit"><i class="fa-regular fa-envelope"></i></button>
                     </form>
-                    
+
                     <div id="popup">
                         <p>Email enviado com sucesso!</p>
                     </div>
                 
                     <script>
-                        // Mostrar o pop-up quando o formulário é enviado com sucesso
                         document.querySelector("form").addEventListener("submit", function() {
-                            // Exibir o pop-up
                             document.getElementById("popup").style.display = "block";
-                
-                            // Esconder o pop-up após 3 segundos (3000 milissegundos)
                             setTimeout(function() {
                                 document.getElementById("popup").style.display = "none";
                             }, 3000);
