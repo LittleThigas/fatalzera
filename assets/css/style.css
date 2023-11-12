@@ -23,7 +23,7 @@ main {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: -320px;
     width: 100%;
     color: var(--color-neutral-40);
     position: relative;
@@ -181,7 +181,7 @@ footer {
       box-shadow: 0 0 13px rgba(0, 0, 255, 0.5);
     }
     100% {
-        box-shadow: 0 0 13  px rgba(255, 0, 0, 0.5);
+        box-shadow: 0 0 13px rgba(255, 0, 0, 0.5);
       }
   }
 
@@ -285,7 +285,96 @@ footer {
     background-color: var(--color-neutral-10);
     text-align: center; 
     line-height: 50px; 
-    color: var(--color-neutral-10); 
+    color: #fff; 
     text-decoration: none; 
     border-radius: 50px;
   }
+
+#typing-text {
+    border-right: 1px solid var(--color-neutral-10);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 5s steps(500) forwards;
+
+    font-size: 64px;
+    text-align: left;
+    color: #c7fc03;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+#prginicio{
+    font-size: 24px;
+    text-align: left;
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+#separation{
+    font-size: 40px;
+    text-align: left;
+    color: #c7fc03;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#prgservices{
+    font-size: 24px;
+    text-align: left;
+    color:#fff;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#inicio{
+    font-size: 15px;
+    text-align: left;
+    color:#fff;
+    margin-left: 5%;
+    margin-top: 2%; 
+}
+
+.linha-arco-iris {
+    margin-left: 5%;
+    margin-top: 2%; 
+    height: 7px;
+    width: 680px;
+    border-radius: 10px;
+    background-color: #c7fc03;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); 
+    animation: shadowTransition 5s linear infinite;
+  }
+  
+  @keyframes shadowTransition {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    }
+    25% {
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+    }
+    75% {
+      box-shadow: 0 0 20px rgba(0, 128, 0, 0.5);
+    }
+    90% {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+      }
+  }
+  
