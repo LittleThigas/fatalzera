@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/stylecontato.css">
     <link rel="icon" type="image/png" href="images/logomarca.png">
 
     <title>Fatalzera</title>
@@ -25,33 +26,32 @@
             </ul>
         </div>
     </nav>
-    
-    <main>   
-    <div class="corpo">
-    <h4 id="inicio">BEM-VINDO</h4>
-    <h1 id="typing-text"></h1>
-    <script src="scripts/script.js"></script>
-    <div>
-    <p id="prginicio">Estou atualmente trabalhando na fronteira daquilo que <br>conheço com aquilo que não conheço.</p>
-    <div class="linha-arco-iris"></div>
-    <div>
-        <h1 id="separation">Conheça os meus serviços</h1>
-        <div>
-        <p id="prgservices">• Design gráfico</p>
-        <p id="prgservices">• Sistemas de identidade visual</p>
-        <p id="prgservices">• Ilustração</p>
-        </div>
-    </div>
-    </div>
-    </div>
-    <div class="iphonexs" >
-        <a href="https://www.instagram.com/fatal.dsn/" class="botao-imagem">
-        <img class="iphonex" src="images/Appleinsta.png" alt="Iphone">
-    </a>
-    </div>
+
+    <main>
+        <section class="form-container">
+            <div class="containercontact">
+                <form class="formss" method="post" action="phps/formcontact.php">
+                    <h1>Entre em contato</h1>
+                    <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                    <div class="input-single">
+                        <input class="input" type="text" id="nome" name="nome" required>
+                        <label for="nome">Seu nome completo</label>
+                    </div>
+                    <div class="input-single">
+                        <input class="input" type="text" id="email" name="email" required>
+                        <label for="email">Seu e-mail</label>
+                    </div>
+                    <div class="input-single">
+                        <input class="input" type="text" id="telefone" name="telefone" required>
+                        <label for="telefone">Seu telefone</label>
+                    </div>
+                    <div class="btn"><input type="submit" value="Enviar"></div>
+                </form>
+            </div><!--container-->
+        </section>
     </main>
 
-    <footer>
+    <footer id="footercontato">
         <div id="footer_content">
             <div id="footer_contacts">
                 <img src="images/logomarca.png" alt="logomarca" class="logofatal">
@@ -100,13 +100,13 @@
                     <h3>Acesse Agora</h3>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/@fatalthiago" class="footer-link">Youtube</a>
+                    <a href="#" class="footer-link">Youtube</a>
                 </li>
                 <li>
-                    <a href="https://www.tiktok.com/@fataldsn" class="footer-link">TikTok</a>
+                    <a href="#" class="footer-link">TikTok</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/thiago-santanaa/" class="footer-link">Linkedin</a>
+                    <a href="#" class="footer-link">Linkedin</a>
                 </li>
             </ul>
 
