@@ -1,21 +1,19 @@
 <?php
 
-    $nome = addcslashes($_POST['name']);
-    $email = addcslashes($_POST['email']);
-    $telefone = addcslashes($_POST['telefone']);
+$nome = addslashes ($_POST['nome']);
+$email = addslashes ($_POST['email']);
+$telefone = addslashes ($_POST['telefone']);
 
-    $para = "fatalzerax@gmail.com";
-    $assunto = "Coleta de Dados - Fatalzera";
-    
-    $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$telefone;
+$para = "intelioteste@gmail.com";
+$assunto = "Coleta de dados - Inteliogia";
 
-    $cabeca = "From fatalzera@site.com"."\n"."reply-to: ".$email. "\n"."X=Mailer:PHP/".phpversion();
+$corpo= "Nome: .$nome."\n". "E-mail: .$email."\n". "Telefone: ".$telefone;
 
-    if(mail($para, $assunto, $corpo, $cabeca)) {
-        if(mail($para, $assunto, $corpo, $cabeca)) {
-            echo ("E-mail enviado com sucesso!");
-        }else{
-        echo ("Houve um erro ao enviar o email!");
-        }
-        
+$cabeca = "From: teste@inteliogia.com"."\n". "Reply-to: ".$email."\n". "X=Mailer: PHP/".phpversion();
+
+if(mail($para, $assunto, $corpo, $cabeca)) {
+echo ("E-mail enviado com sucesso!");
+}else{
+echo ("Houve um erro ao enviar o email!");
+}
 ?>
