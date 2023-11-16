@@ -1,95 +1,95 @@
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.containercontact{
-  margin-top: 15%;
-
-}
-
-.formss{
-    background: #fff;
-    max-width: 500px;
-    height: 450px;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px #000000; 
-}
-
-form h1{
-    text-align: center;
-    margin-bottom: 10px;
-    color: #000000;
-    font-size: 22pt;
-    background: #fff;
-
-}
-
-form p{
-    text-align: center;
-    margin-bottom: 25px;
-    background: #fff;
-    color: #2b2b2b;
-
-
-}
-
-form .input-single{
-    position: relative;
-    margin: 30px 0;
-    
-}
-
-form .input-single label{
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    cursor: text;
-    transition: all 0.5s;
-    color: #808080;
-    background: #fff;
-    
-
-}
-
-form .input-single .input{
-    width: 100%;
-    border: 0;
-    border-bottom: 2px solid #808080;
-    padding: 5px;
-    outline: 0;
-    font-size: 16px;
-    background: #fff;
-
-}
-
-form .input-single .input:focus{
-    border-bottom: 2px solid #2D5966;
-    
-}
-
-form .input-single .input:focus ~ label,
-form .input-single .input:valid ~ label{
-    transform: translateY(-20px);
-    font-size: 12px;
-    color: #2D5966;
-
-}
-
-.btn{
-    width: 100%;
-    text-align: center;
-    background: #fff;
-
-}
-
-form input[type=submit]{
-    padding: 10px 40px;
-    border: 0;
-    border-radius: 10px;
-    background-color: #18c9ff;
-    color: #fff;
-    font-size: 14pt;
-    cursor: pointer;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containercontact{
+    margin-top: 15%;
+  
+  }
+  
+  .formss{
+      background: #fff;
+      max-width: 500px;
+      height: 450px;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px #000000; 
+  }
+  
+  form h1{
+      text-align: center;
+      margin-bottom: 10px;
+      color: #000000;
+      font-size: 22pt;
+      background: #fff;
+  
+  }
+  
+  form p{
+      text-align: center;
+      margin-bottom: 25px;
+      background: #fff;
+      color: #2b2b2b;
+  
+  
+  }
+  
+  form .input-single{
+      position: relative;
+      margin: 30px 0;
+      
+  }
+  
+  form .input-single label{
+      position: absolute;
+      left: 0;
+      bottom: 5px;
+      cursor: text;
+      transition: all 0.5s;
+      color: #808080;
+      background: #fff;
+      
+  
+  }
+  
+  form .input-single .input{
+      width: 100%;
+      border: 0;
+      border-bottom: 2px solid #808080;
+      padding: 5px;
+      outline: 0;
+      font-size: 16px;
+      background: #fff;
+  
+  }
+  
+  form .input-single .input:focus{
+      border-bottom: 2px solid #2D5966;
+      
+  }
+  
+  form .input-single .input:focus ~ label,
+  form .input-single .input:valid ~ label{
+      transform: translateY(-20px);
+      font-size: 12px;
+      color: #2D5966;
+  
+  }
+  
+  .btn{
+      width: 100%;
+      text-align: center;
+      background: #fff;
+  
+  }
+  
+  form input[type=submit]{
+      padding: 10px 40px;
+      border: 0;
+      border-radius: 10px;
+      background-color: #18c9ff;
+      color: #fff;
+      font-size: 14pt;
+      cursor: pointer;
+  }
